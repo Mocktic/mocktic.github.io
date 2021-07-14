@@ -256,6 +256,36 @@ section .title::before{
     width: 50%;
 }
 
+.techfam .text{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.techfam .techfam-buttons{
+    padding: 10px;
+    text-align: center;
+}
+.techfam .techfam-buttons .tech-button{
+    font-size: 20px;
+    text-align: center;
+}
+.techfam .techfam-buttons .tech-button{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;  
+    border: 0; 
+}
+.techfam .techfam-buttons .tech-button img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
 
 /*Projects Section Styling*/
 
@@ -425,6 +455,32 @@ section .title::before{
 .right form .button-area button:hover{
   color: black;
   background: none;
+}
+
+#status{
+    font-size: 18px;
+    margin-top: 10px;
+    animation: status 4s ease forwards;
+}
+#status.success{
+    color: green;
+  }
+#status.error{
+    color: red;
+  }
+
+@keyframes status{
+    0%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    100%{
+        opacity: 0;
+        pointer-events: none;
+    }
 }
 
 
