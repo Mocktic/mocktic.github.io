@@ -78,7 +78,7 @@ section .title::before{
 	color: white;
 	font-weight: 600;
 	font-size: 24px;
-	font-family: 'Inconsolata', monospace;
+	font-family: 'Cutive Mono', monospace;
 	transition: color 0.3s ease;
 }
 .navbar .logo a:hover{
@@ -148,7 +148,7 @@ section .title::before{
 }
 .home .home-content .right .text{
 	color: white;
-	font-family: 'Inconsolata', monospace;
+	font-family: 'Gotu', sans-serif;
 	font-size: 50px;
 	margin-bottom: 10px;
 }
